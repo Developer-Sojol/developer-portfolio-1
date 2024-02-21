@@ -84,13 +84,13 @@ ul li a {
     margin-left: 210px;
     margin-top: 200px;
 }
-.text h1 , h2{
+.text > h1{
     color: var(--Dark-01, #181818);
     font-size: 75px;
     font-weight: 600;
-
 }
-.text h2{
+
+.text > h2{
     font-size: 45px;
     color: var(--Dark-02, #474747);
 }
@@ -218,4 +218,125 @@ ul li a {
     font-weight: 400;
     line-height: 28px; /* 175% */
     text-align: left;
+}
+
+/* Resume Section */
+
+
+.resume-sec{
+     width: 1140px;
+     margin: auto;
+    padding: 50px;
+}
+.resume-sec > h1{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 50px 0px;
+}
+.resume-part{
+    display: flex;
+    gap: 100px;
+}
+.resume-div{
+   
+}
+.resume-div > h1{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resume-div h2{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.resume-div h5{
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.resume-div p{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+}
+.resume-div div:last-child p{
+    border-bottom: none;
+}
+.resume-sec .btn{
+    margin: 100px 460px;
+}
+.resume-sec .btn a{
+    text-decoration: none;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+.download-btn{
+    padding: 15px 45px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+}
+
+/* Footer Css */
+.footer-sec{
+    width: 1600px;
+    background: #FFF8F3;
+    display: flex;
+}
+.footer-sec h1{
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer-sec .icon-div{
+    margin-top: 30px;
+}
+.icon-div a{
+    margin-right: 15px;
+}
+.footer-sec p{
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.contact-div{
+    padding: 100px;
+    width: 50%;
+}
+.form-div{
+   padding: 100px;
+   width: 50%;
+}
+.form-div h1{
+    margin-bottom: 50px;
+}
+.form-div a{
+    text-decoration: none;
+}
+.form-div input , textarea{
+   display: block;
+   margin-bottom: 25px;
+   padding: 12px 35px;
+   color: var(--Dark-03, #757575);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px; /* 175% */
+   border-radius: 5px;
+   border: 0;
+   width: 100%;
 }

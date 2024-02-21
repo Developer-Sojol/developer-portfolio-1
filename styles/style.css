@@ -166,3 +166,56 @@ ul li a {
     font-weight: 700;
     line-height: 30px;
 }
+
+/* What I Do section Css */
+.what-do-sec{
+    width: 1140px;
+    order: 1px soli black;
+    margin: auto;
+    margin-top: 100px;
+}
+.what-do-sec h1{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+.what-do-sec p{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-bottom: 30px;
+}
+.do-info-div{
+  display: flex;
+}
+.skill-info-div{
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:15px ;
+    
+}
+.skill-info-div h4{
+    color:var(--Dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+.skill-info-div P{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    text-align: left;
+}
